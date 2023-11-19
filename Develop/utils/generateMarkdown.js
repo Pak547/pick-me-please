@@ -21,14 +21,57 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if(license !== 'None') {
     return `##License\n
-    \nThis project is licensed under the ${license} license`
+    This project is licensed under the ${license} license`
   } else {
     return '';
   }
 }
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}`;
+function generateMarkdown(answers) {
+  return `# ${answers.title}
+
+     ## Description
+
+     ${answers.description}
+    
+     ## Table of Contents
+
+      [Installation](#installation)
+      [Usage](#usage)
+      ${renderLicenseLink(data.license)}
+      [Contributing](#contributing)
+      [Tests](#tests)
+      [Questions](#questions)
+     ${answers.toc}
+    
+     ## Installation
+
+     ${answers.installation}
+
+     ## Usage
+    
+     ${answers.usage}
+
+     ## Credits
+    
+     ${answers.contribution}
+
+     ## License
+
+     ${renderLicenseSection}
+
+     ## Badges
+    
+     ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+    
+     ## Features
+    
+
+     ## How to Contribute
+    
+     ## Tests
+    
+     `;;
 }
 
 module.exports = generateMarkdown;
