@@ -1,4 +1,4 @@
-# pick-me-please
+# PICK-ME-PLEASE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -33,8 +33,15 @@ No need
 
 ## Tests
 
-No test cases
+None
 
 ## Questions
+
+What is your Github username?
+
+Pak547
+
+What is your Email?
+
+pakapongm@yahoo.com
  
-What are your
