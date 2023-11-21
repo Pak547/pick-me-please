@@ -21,8 +21,16 @@ Make sure you have inquirer 8.2.6 installed
 ## Usage
     
 After installing inquirer, in the terminal type node index.js to begin user prompt for a personalized README  
+![Alt text](assets/images/readme1.png)
 
+Choose between a list of licenses
+![Alt text](assets/images/readme2.png)
 
+Overall view of prompts
+![Alt text](<assets/images/readme 3.png>)
+
+Preview of generated README
+![Alt text](<assets/images/readme 4.png>)
 ## License
 
     This project is licensed under the MIT license
@@ -37,4 +45,5 @@ No test cases
 
 ## Questions
  
-What are your
+What is your Github user?
+Pak547
