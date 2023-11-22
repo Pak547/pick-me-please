@@ -10,9 +10,6 @@ A professional README generator using node.js and inquirer that will prompt the 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
     
 ## Installation
 
@@ -31,19 +28,9 @@ Overall view of prompts
 
 Preview of generated README
 ![Alt text](<assets/images/readme 4.png>)
+
+Video link below
+https://drive.google.com/file/d/1Gf-QyjeBWz3gbJUy08fHe4p1wXP5Ig6u/view
 ## License
 
     This project is licensed under the MIT license
-
-## How to Contribute
-
-No need
-
-## Tests
-
-No test cases
-
-## Questions
- 
-What is your Github user?
-Pak547
